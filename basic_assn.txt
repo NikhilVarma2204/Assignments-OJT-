@@ -1,0 +1,31 @@
+mkdir "project_dir"
+cd project_dir
+$git init
+$git status
+// adding the html file index.html//
+$touch index.html
+$git add index.html
+$git -m'commited'
+$git status
+// adding the text file "info.txt"
+$ touch info.txt
+$ git status
+// adding the .gitignore file//
+$ touch gitignore
+//put *.txt in gitingnore//
+$ git add index.html
+$ git commit -m'commited'
+$ git status
+//reverting the chnage//
+$ git checkout-- index.html
+//now make some chenges in index.html//
+$ git status
+$ git add index.html
+//  now revert the changes//
+$ git checkout --index.html
+$ alias my_add= 'git add'
+$ my_add index.html
+$ git commit -m'maybe the final commit'
+$ git checkout -- index.html
+
+
