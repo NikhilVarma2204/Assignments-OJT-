@@ -33,7 +33,7 @@ $ git checkout -- index.html
 mkdir "Assignments"
 cd assignments
 $git init
-$git touch README.txt
+$ touch README.txt
 $git checkout -b "html-assignments"
 //copy all the html assignments into it
 $git add s1.html
@@ -57,7 +57,7 @@ $git checkout -b "css-assignments"
 //copy all css assignments into this branch
 $git add c1.css
 $git commit -m'css file'
-$git touch README.txt
+$touch README.txt
 //make some changes to the readmetxt
 $git add README.txt
 $git commit -m'readme file'
