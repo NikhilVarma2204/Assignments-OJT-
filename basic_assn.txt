@@ -29,3 +29,74 @@ $ git commit -m'maybe the final commit'
 $ git checkout -- index.html
 
 
+
+mkdir "Assignments"
+cd assignments
+$git init
+$git touch README.txt
+$git checkout -b "html-assignments"
+//copy all the html assignments into it
+$git add s1.html
+$git commit -m'html file'
+//make minor changes in the html files
+$git add s1.html
+$git commit -m'changed html file'
+$git checkout Assignments
+$git add README.txt
+$git commit -m'readme file'
+$git checkout html-assignments
+//make minor changes to html files
+$git add s1.html
+$git commit -m'final html file'
+//Merging branch html-assignments with Assignments
+$git checkout Assignments
+$git merge html-assignments
+$git branch -d html-assignments
+
+$git checkout -b "css-assignments"
+//copy all css assignments into this branch
+$git add c1.css
+$git commit -m'css file'
+$git touch README.txt
+//make some changes to the readmetxt
+$git add README.txt
+$git commit -m'readme file'
+$git checkout Assignments
+//Make minor changes into README.txt file on line 3
+$git add README.txt
+$git -m'Changed readme file on line-3'
+$git checkout css-assignments
+//make minor changes to c1.css
+$git add c1.css
+$git commit -m'css file modified'
+$git checkout Assignments
+$git merge css-assignments
+$git branch -d css-assignments
+
+
+$git checkout -b"js-assignments"
+//copy all JavaScript files into this
+$git add j.js
+$git commit -m'js file'
+touch README.txt
+//make minor changes to readme.txt
+$git add README.txt
+$git commit -m'readme modified'
+$git checkout Assignments
+//make minor changes toi readme txt og master branch
+$git add README.txt
+$git commit -m'new readme'
+$git checkout js-assignments
+//make minor changes to js files
+$git add j.js
+$git commit -m'final js file'
+$git checkout Assignments
+$git merge js-assignments
+$git branch -d js-assignments
+
+$git config --global user.name"NikhilVarma2204"
+$git remote add origin https://github.com/NikhilVarma2204/freshersbatch-oct16.git
+$git push master
+
+
+
