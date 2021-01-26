@@ -1,4 +1,4 @@
-package WorkingCities;
+package Assignment5.WorkingCities;
 
 import java.util.ArrayList;
 import java.util.Collections;
