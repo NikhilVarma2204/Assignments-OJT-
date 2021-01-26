@@ -1,4 +1,4 @@
-package WorkingCities;
+package Assignment5.WorkingCities;
 
 public class Trader {
     String name;
