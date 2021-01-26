@@ -1,4 +1,4 @@
-package NewsPaper;
+package Assignment5.NewsPaper;
 
 import java.util.ArrayList;
 import java.util.Collections;
