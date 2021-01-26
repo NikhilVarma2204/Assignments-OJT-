@@ -1,4 +1,4 @@
-package WorkingCities;
+package Assignment5.WorkingCities;
 
 public class Transaction extends Trader {
     private Trader trader;
