@@ -1,4 +1,4 @@
-package NewsPaper;
+package Assignment5.NewsPaper;
 
 public class News {
     int newsId;
