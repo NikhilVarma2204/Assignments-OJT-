@@ -1,0 +1,10 @@
+ for(News n:l){
+            y.add(n.newsId);
+        }
+        int freq1= Collections.frequency(y,1);
+        int freq2= Collections.frequency(y,2);
+        if(freq1>freq2){
+            System.out.println(1);
+        }
+        else
+        System.out.println(2);
